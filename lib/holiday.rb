@@ -70,7 +70,8 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_array.collect do |word|
         word.capitalize!
       end
-      binding.pry
+      holiday_string = holiday_array.join(" ")
+      puts "#{holiday_string}:"
       supplies_string = supplies.join(", ")
       puts "  #{holiday_string}: #{supplies_string}"
     end
