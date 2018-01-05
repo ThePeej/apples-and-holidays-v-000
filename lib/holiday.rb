@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts season_string
     
     holidays.each do |holiday, supplies|
-      binding.pry
+      holiday_string
     end
   end
 end
